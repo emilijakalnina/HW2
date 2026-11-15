@@ -233,3 +233,12 @@ button:hover {
     display: none;
   }
 }
+
+.hero-feature img,
+.article-feature img,
+.article-listing img,
+.sidebar-feature img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}

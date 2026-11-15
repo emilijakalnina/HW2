@@ -13,7 +13,6 @@ img {
   height: auto;
 }
 
-/* ---------- PHONE (default, less than 576px) ---------- */
 .page {
   display: grid;
   gap: 10px;
@@ -79,12 +78,10 @@ img {
   padding: 10px;
 }
 
-/* Second ad is hidden on phone and tablet */
 .ad-side {
   display: none;
 }
 
-/* ---------- BUTTON HOVER EFFECT (bonus) ---------- */
 button {
   background-color: #ff6f61;
   color: #ffffff;
@@ -113,7 +110,6 @@ button:hover {
   }
 }
 
-/* ---------- DESKTOP (992px and up) ---------- */
 @media (min-width: 992px) {
   .page {
     grid-template-columns: 200px 1fr 250px;
@@ -129,7 +125,6 @@ button:hover {
     justify-content: flex-start;
   }
 
-  /* swap the ads: top ad hidden, side ad shown */
   .ad-top {
     display: none;
   }
